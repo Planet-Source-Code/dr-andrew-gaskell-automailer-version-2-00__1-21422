@@ -1,0 +1,216 @@
+[Root]
+Most Recent Package=Standard Setup Package 1
+
+
+[Package|AutoMailer|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\MyVBApps\Automailer\package1
+
+[Package|AutoMailer|Configure DAO ISAMs]
+Applicable=No
+
+[Package|AutoMailer|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|AutoMailer|Files Found]
+
+[Package|AutoMailer|Files Released]
+
+[Package|AutoMailer|Missing Dependency Information]
+C:\Program Files\Common Files\System\Mapi\1033\95\CDO.DLL=
+C:\Program Files\Common Files\System\Ado\msado25.tlb=
+
+[Package|AutoMailer|Out-of-Date Dependency Information]
+
+[Package|AutoMailer|Files Added]
+C:\MyVBApps\Automailer\@bcusers.mdb=
+
+[Package|AutoMailer|Files Removed]
+
+[Package|AutoMailer|Files In Project]
+C:\MyVBApps\Automailer\AutoMailer.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\mapirtf.dll=Yes
+C:\Program Files\Common Files\System\Ado\msado25.tlb=Yes
+C:\Program Files\Common Files\System\Mapi\1033\95\CDO.DLL=Yes
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=Yes
+C:\WINDOWS\SYSTEM\RICHTX32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\MyVBApps\Automailer\@bcusers.mdb=Yes
+
+[Package|AutoMailer|Configure Registry Files]
+Applicable=No
+
+[Package|AutoMailer|Configure Remote Servers]
+Applicable=No
+
+[Package|AutoMailer|Install Locations]
+C:\MyVBApps\Automailer\AutoMailer.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\mapirtf.dll=$(AppPath)
+C:\Program Files\Common Files\System\Ado\msado25.tlb=$(WinSysPath)
+C:\Program Files\Common Files\System\Mapi\1033\95\CDO.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\MyVBApps\Automailer\@bcusers.mdb=$(AppPath)
+
+[Package|AutoMailer|Configure Shared Files]
+Applicable=Yes
+C:\MyVBApps\Automailer\AutoMailer.exe=No
+C:\WINDOWS\SYSTEM\mapirtf.dll=Yes
+C:\MyVBApps\Automailer\@bcusers.mdb=No
+
+[Package|AutoMailer|Distribution]
+Type=single
+Size=
+Title=AutoMailer
+
+[Package|AutoMailer|IconGroups]
+Group0=AutoMailer
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|AutoMailer|AutoMailer]
+Icon1=AutoMailer.exe
+Title1=AutoMailer
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|AutoMailer|Package]
+PackageFolder=C:\MyVBApps\Automailer\package1
+ProjectFolder=C:\MyVBApps\Automailer
+ServerSideCab=
+File1=C:\MyVBApps\Automailer\package1\setup.exe
+File2=C:\MyVBApps\Automailer\package1\Setup.Lst
+File3=C:\MyVBApps\Automailer\package1\AutoMailer.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\MyVBApps\Automailer\Package1
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+C:\Program Files\Common Files\System\Ado\msado21.tlb=
+C:\WINDOWS\SYSTEM\CDO.DLL=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+
+[Package|Standard Setup Package 1|Files Added]
+C:\MyVBApps\Automailer\@bcusers.mdb=
+
+[Package|Standard Setup Package 1|Files Removed]
+c:\program files\common files\system\ado\msado21.tlb=
+
+[Package|Standard Setup Package 1|Files In Project]
+C:\MyVBApps\Automailer\AutoMailer.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\mapirtf.dll=Yes
+C:\WINDOWS\SYSTEM\CDO.DLL=Yes
+C:\Program Files\Common Files\System\Ado\msado21.tlb=No
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=Yes
+C:\WINDOWS\SYSTEM\RICHTX32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\MyVBApps\Automailer\@bcusers.mdb=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+C:\MyVBApps\Automailer\AutoMailer.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\mapirtf.dll=$(AppPath)
+C:\WINDOWS\SYSTEM\CDO.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\MyVBApps\Automailer\@bcusers.mdb=$(AppPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+C:\MyVBApps\Automailer\AutoMailer.exe=No
+C:\WINDOWS\SYSTEM\mapirtf.dll=Yes
+C:\MyVBApps\Automailer\@bcusers.mdb=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=AutoMailer
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=AutoMailer
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|AutoMailer]
+Icon1=AutoMailer.exe
+Title1=AutoMailer
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=C:\MyVBApps\Automailer\Package1
+ProjectFolder=C:\MyVBApps\Automailer
+ServerSideCab=
+File1=C:\MyVBApps\Automailer\Package1\setup.exe
+File2=C:\MyVBApps\Automailer\Package1\Setup.Lst
+File3=C:\MyVBApps\Automailer\Package1\AutoMailer.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
